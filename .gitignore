@@ -1,0 +1,13 @@
+*/*.pyc
+numeriek/octave/kplot.tar.gz
+
+# LaTeX is a mess
+verslag/*.log
+verslag/*.aux
+verslag/*.glg
+verslag/*.glo
+verslag/*.gls
+verslag/*.ist
+verslag/*.lof
+verslag/*.toc
+verslag/*.pdf

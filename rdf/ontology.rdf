@@ -1,0 +1,38 @@
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:our="%%URL%%">
+
+ <owl:Ontology 
+     rdf:about="%%URL%%#"
+     dc:title="The Kplot vocabulary"/>
+
+<rdfs:Class rdf:about="our:Dataset">
+  <rdfs:isDefinedBy rdf:resource="%%URL%%"/>
+  <rdfs:label>Dataset</rdfs:label>
+  <rdfs:comment>The dataset container.</rdfs:comment>
+</rdfs:Class>
+
+<rdf:Property rdf:about="our:x-label">
+  <rdfs:isDefinedBy rdf:resource="%%URL%%"/>
+  <rdfs:label>x-label</rdfs:label>
+  <rdfs:comment>X-axis label.</rdfs:comment>
+  <rdfs:domain rdf:resource="our:Dataset"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="our:y-label">
+  <rdfs:isDefinedBy rdf:resource="%%URL%%"/>
+  <rdfs:label>y-label</rdfs:label>
+  <rdfs:comment>Y-axis label.</rdfs:comment>
+  <rdfs:domain rdf:resource="our:Dataset"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="our:data">
+  <rdfs:isDefinedBy rdf:resource="%%URL%%"/>
+  <rdfs:label>data</rdfs:label>
+  <rdfs:comment>Data, as semicolon-separated comma-separated number-pairs.</rdfs:comment>
+  <rdfs:domain rdf:resource="our:Dataset"/>
+</rdf:Property>
+
+</rdf:RDF>

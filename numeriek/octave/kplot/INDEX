@@ -1,0 +1,4 @@
+toolbox >> kplot
+kplot
+ kplot ktitle kxlabel kylabel
+ kpurge_tmp_files

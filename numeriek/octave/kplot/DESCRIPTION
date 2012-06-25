@@ -1,0 +1,11 @@
+Name: kplot
+Version: 0.0.1
+Date: 2012-03-23
+Author: Koen Crolla
+Maintainer: Koen Crolla
+Title: kplot plotting library
+Description: This package implements a set of functions that enable GNU Octave
+ to interact with the kplot plotting server.
+Autoload: yes
+License: GNU GPL 2 or greater
+SystemRequirements: python (>= 2.6)
